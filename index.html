@@ -1,0 +1,58 @@
+<!-- 
+  FIRST:   Play one of the madlibs from this site: https://www.madtakes.com/index.php
+
+  SECOND: Create your own madlib site. You can create your own story or use one from this site.
+
+  REQUIREMENTS: The page must be STYLED!! Make it colorful, pretty, full of CSS and HTML goodness on top of wonderful JS.  Show off all you can do!
+
+  -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>The Lunchroom Mad Libs</h1>
+    
+    <br>
+
+    <form id="inputForm">
+      <span>Verb("-ing" form):</span>
+      <input id="verb1" type="text" placeholder="Any Verb">
+      
+      <br>
+
+      <span>Noun(Plural):</span>
+      <input id="pluralNoun1" type="text" placeholder="Any Plural Noun">
+
+      <br>
+
+      <span>Adjective:</span>
+      <input id="adj1" type="text" placeholder="Any Adjective">
+
+      <br>
+
+      <span>Verb("infinitive form"):</span>
+      <input id="verb2" type="text" placeholder="Any Verb">
+
+      <br>
+
+      <span>Noun(Person):</span>
+      <input id="noun2" type="text" placeholder="Any Noun">
+
+      <br>
+
+      <span>Noun(Food):</span>
+      <input id="noun3" type="text" placeholder="Any Noun">
+     
+      <br>
+    
+      <input id="button" type="button" value="Submit" onClick="madLib()">
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
